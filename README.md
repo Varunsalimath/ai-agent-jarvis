@@ -1,49 +1,63 @@
 # Jarvis AI Agent 🤖
 
-Jarvis is a simple AI agent chatbot built using Python.
-It can perform tasks like solving math problems and searching the internet using tools.
+Jarvis is a simple AI agent chatbot that can perform tasks using tools such as a calculator and web search.
 
 ## Features
 
-* AI Agent reasoning
+* AI agent reasoning
 * Calculator tool
 * Web search tool
-* Local LLM using Ollama
+* Local LLM using Ollama (Llama3)
 * Streamlit chatbot interface
 
 ## Tech Stack
 
 * Python
 * LangChain
-* Ollama (Llama3)
+* Ollama
 * Streamlit
+* DuckDuckGo Search
 
-## Setup Instructions
+## Installation
 
-1. Clone the repository
+Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/ai-agent-jarvis.git
-
-2. Navigate to the folder
-
+```
+git clone https://github.com/Varunsalimath/ai-agent-jarvis.git
 cd ai-agent-jarvis
+```
 
-3. Create virtual environment
+Create virtual environment
 
+```
 python -m venv venv
-
-4. Activate environment
-
 venv\Scripts\activate
+```
 
-5. Install dependencies
+Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
-6. Run the AI model
+Run Ollama model
 
+```
 ollama run llama3
+```
 
-7. Start the application
+Run the app
 
+```
 streamlit run app.py
+```
+
+## Example Questions
+
+* What is 45 * 12?
+* Search latest AI news
+* Who is Elon Musk?
+
+## Author
+
+Varun Salimath
